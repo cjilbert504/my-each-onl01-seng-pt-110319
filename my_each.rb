@@ -3,6 +3,6 @@ def my_each(array)
 
    while counter < array.length
      yield "#{array[counter]}"
-     couter += 1
+     counter += 1
    end
 end
